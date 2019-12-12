@@ -1,0 +1,30 @@
+body {
+  background: #efefef;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#btn {
+  width: 200px;
+  height: 200px;
+  background: #ef454a;
+  border-radius: 50%;
+  margin: 30px auto;
+  text-align: center;
+  line-height: 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: 0 10px 0 #d1483e;
+  user-select: none; /* 選択をアクティブにしない*/
+}
+#btn:hover {
+  opacity: 0.9;
+}
+#btn:active {
+  box-shadow: 0 5px 0 #d1483e;
+  margin-top: 35px;
+}
